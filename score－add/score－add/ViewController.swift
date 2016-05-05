@@ -6,7 +6,11 @@
 //  Copyright © 2016年 20131105759. All rights reserved.
 //
 
+//http://www.hangge.com/blog/cache/detail_645.html
+
 import UIKit
+
+
 
 class ViewController: UIViewController {
 
@@ -19,6 +23,13 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    var db:QLiteDB!
+    @IBOutlet var txtUname1:UITextField!
+    @IBOutlet var txtUname2:UITextField!
+    
+    
 
 
 }
