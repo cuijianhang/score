@@ -14,10 +14,11 @@
 		DF2F5EA91CC50EA100C9C30D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2F5EA71CC50EA100C9C30D /* LaunchScreen.storyboard */; };
 		DF2F5EB41CC50EA100C9C30D /* score_addTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F5EB31CC50EA100C9C30D /* score_addTests.swift */; };
 		DF2F5EBF1CC50EA100C9C30D /* score_addUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F5EBE1CC50EA100C9C30D /* score_addUITests.swift */; };
+		DF7F2C901CE0B54800C1D043 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = DF7F2C8F1CE0B54800C1D043 /* data.db */; };
+		DF7F2C971CE0B63F00C1D043 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7F2C941CE0B63F00C1D043 /* SQLiteDB.swift */; };
+		DF7F2C981CE0B63F00C1D043 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7F2C951CE0B63F00C1D043 /* SQLTable.swift */; };
+		DF7F2C991CE0B63F00C1D043 /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7F2C961CE0B63F00C1D043 /* String-Extras.swift */; };
 		DFBF02791CDAEB81003E95FA /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBF02781CDAEB81003E95FA /* libsqlite3.0.tbd */; };
-		DFBF02801CDAF9FC003E95FA /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF027D1CDAF9FC003E95FA /* SQLiteDB.swift */; };
-		DFBF02811CDAF9FC003E95FA /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF027E1CDAF9FC003E95FA /* SQLTable.swift */; };
-		DFBF02821CDAF9FC003E95FA /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF027F1CDAF9FC003E95FA /* String-Extras.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,11 +52,12 @@
 		DF2F5EBA1CC50EA100C9C30D /* score－addUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "score－addUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF2F5EBE1CC50EA100C9C30D /* score_addUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = score_addUITests.swift; sourceTree = "<group>"; };
 		DF2F5EC01CC50EA100C9C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7F2C8F1CE0B54800C1D043 /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
+		DF7F2C941CE0B63F00C1D043 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteDB.swift; path = SQLiteDB/SQLiteDB.swift; sourceTree = "<group>"; };
+		DF7F2C951CE0B63F00C1D043 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLTable.swift; path = SQLiteDB/SQLTable.swift; sourceTree = "<group>"; };
+		DF7F2C961CE0B63F00C1D043 /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String-Extras.swift"; path = "SQLiteDB/String-Extras.swift"; sourceTree = "<group>"; };
 		DFBF02781CDAEB81003E95FA /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		DFBF027B1CDAEDE6003E95FA /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		DFBF027D1CDAF9FC003E95FA /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteDB.swift; path = ../hangge_645/SQLiteDB/SQLiteDB.swift; sourceTree = "<group>"; };
-		DFBF027E1CDAF9FC003E95FA /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLTable.swift; path = ../hangge_645/SQLiteDB/SQLTable.swift; sourceTree = "<group>"; };
-		DFBF027F1CDAF9FC003E95FA /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String-Extras.swift"; path = "../hangge_645/SQLiteDB/String-Extras.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +89,9 @@
 		DF2F5E921CC50EA100C9C30D = {
 			isa = PBXGroup;
 			children = (
-				DFBF027C1CDAF502003E95FA /* SQLiteDB */,
+				DF7F2C8F1CE0B54800C1D043 /* data.db */,
 				DFBF02781CDAEB81003E95FA /* libsqlite3.0.tbd */,
+				DF7F2C931CE0B62000C1D043 /* SQLiteDB */,
 				DF2F5E9D1CC50EA100C9C30D /* score－add */,
 				DF2F5EB21CC50EA100C9C30D /* score－addTests */,
 				DF2F5EBD1CC50EA100C9C30D /* score－addUITests */,
@@ -138,12 +141,12 @@
 			path = "score－addUITests";
 			sourceTree = "<group>";
 		};
-		DFBF027C1CDAF502003E95FA /* SQLiteDB */ = {
+		DF7F2C931CE0B62000C1D043 /* SQLiteDB */ = {
 			isa = PBXGroup;
 			children = (
-				DFBF027D1CDAF9FC003E95FA /* SQLiteDB.swift */,
-				DFBF027E1CDAF9FC003E95FA /* SQLTable.swift */,
-				DFBF027F1CDAF9FC003E95FA /* String-Extras.swift */,
+				DF7F2C941CE0B63F00C1D043 /* SQLiteDB.swift */,
+				DF7F2C951CE0B63F00C1D043 /* SQLTable.swift */,
+				DF7F2C961CE0B63F00C1D043 /* String-Extras.swift */,
 			);
 			name = SQLiteDB;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF2F5EA91CC50EA100C9C30D /* LaunchScreen.storyboard in Resources */,
+				DF7F2C901CE0B54800C1D043 /* data.db in Resources */,
 				DF2F5EA61CC50EA100C9C30D /* Assets.xcassets in Resources */,
 				DF2F5EA41CC50EA100C9C30D /* Main.storyboard in Resources */,
 			);
@@ -279,9 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFBF02821CDAF9FC003E95FA /* String-Extras.swift in Sources */,
-				DFBF02801CDAF9FC003E95FA /* SQLiteDB.swift in Sources */,
-				DFBF02811CDAF9FC003E95FA /* SQLTable.swift in Sources */,
+				DF7F2C991CE0B63F00C1D043 /* String-Extras.swift in Sources */,
+				DF7F2C971CE0B63F00C1D043 /* SQLiteDB.swift in Sources */,
+				DF7F2C981CE0B63F00C1D043 /* SQLTable.swift in Sources */,
 				DF2F5EA11CC50EA100C9C30D /* ViewController.swift in Sources */,
 				DF2F5E9F1CC50EA100C9C30D /* AppDelegate.swift in Sources */,
 			);
