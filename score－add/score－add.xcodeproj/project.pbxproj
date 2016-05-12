@@ -39,17 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DF2F5E9B1CC50EA100C9C30D /* score－add.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "score－add.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2F5E9B1CC50EA100C9C30D /* score－add.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "score－add.app"; path = "/Users/a5759/Desktop/test/2016-4-18/score/score－add/build/Debug-iphoneos/score－add.app"; sourceTree = "<absolute>"; };
 		DF2F5E9E1CC50EA100C9C30D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF2F5EA01CC50EA100C9C30D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF2F5EA31CC50EA100C9C30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF2F5EA51CC50EA100C9C30D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF2F5EA81CC50EA100C9C30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF2F5EAA1CC50EA100C9C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF2F5EAF1CC50EA100C9C30D /* score－addTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "score－addTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2F5EAF1CC50EA100C9C30D /* score－addTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "score－addTests.xctest"; path = "/Users/a5759/Desktop/test/2016-4-18/score/score－add/build/Debug-iphoneos/score－addTests.xctest"; sourceTree = "<absolute>"; };
 		DF2F5EB31CC50EA100C9C30D /* score_addTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = score_addTests.swift; sourceTree = "<group>"; };
 		DF2F5EB51CC50EA100C9C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF2F5EBA1CC50EA100C9C30D /* score－addUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "score－addUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2F5EBA1CC50EA100C9C30D /* score－addUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "score－addUITests.xctest"; path = "/Users/a5759/Desktop/test/2016-4-18/score/score－add/build/Debug-iphoneos/score－addUITests.xctest"; sourceTree = "<absolute>"; };
 		DF2F5EBE1CC50EA100C9C30D /* score_addUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = score_addUITests.swift; sourceTree = "<group>"; };
 		DF2F5EC01CC50EA100C9C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF7F2C8F1CE0B54800C1D043 /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
@@ -95,18 +95,7 @@
 				DF2F5E9D1CC50EA100C9C30D /* score－add */,
 				DF2F5EB21CC50EA100C9C30D /* score－addTests */,
 				DF2F5EBD1CC50EA100C9C30D /* score－addUITests */,
-				DF2F5E9C1CC50EA100C9C30D /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		DF2F5E9C1CC50EA100C9C30D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DF2F5E9B1CC50EA100C9C30D /* score－add.app */,
-				DF2F5EAF1CC50EA100C9C30D /* score－addTests.xctest */,
-				DF2F5EBA1CC50EA100C9C30D /* score－addUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		DF2F5E9D1CC50EA100C9C30D /* score－add */ = {
@@ -239,7 +228,7 @@
 				Base,
 			);
 			mainGroup = DF2F5E921CC50EA100C9C30D;
-			productRefGroup = DF2F5E9C1CC50EA100C9C30D /* Products */;
+			productRefGroup = DF2F5E921CC50EA100C9C30D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -433,7 +422,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "imnu.edu.cn.score-add";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/a5759/Desktop/test/2016-4-18/score/score－add/score－add/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -445,7 +434,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "imnu.edu.cn.score-add";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/a5759/Desktop/test/2016-4-18/score/score－add/score－add/Bridging-Header.h";
 			};
 			name = Release;
 		};

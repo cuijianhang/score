@@ -1,6 +1,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var label1: UILabel!
+    var a = 0
+    @IBAction func add(sender: UIButton) {
+        if(!label1.text!.isEmpty)
+        {
+            a = (label1.text!as NSString).integerValue
+            a = a+1
+            label1.text = ("\(a)")
+            }
+        }
+        
+    }
     
     var db:SQLiteDB!
     

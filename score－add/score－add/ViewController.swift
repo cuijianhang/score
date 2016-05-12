@@ -14,30 +14,47 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var score = 0
+    var a = 0
+    var b = 0
     
     @IBAction func button5(sender: UIButton) {
     }
     @IBAction func button4(sender: UIButton) {
+        if(!label2.text!.isEmpty)
+        {
+            b = (label2.text!as NSString).integerValue
+            b = b+1
+            label2.text = ("\(b)")
+        }
     }
     @IBAction func button3(sender: UIButton) {
+        if(!label1.text!.isEmpty)
+        {
+            a = (label1.text!as NSString).integerValue
+            a = a+1
+            label1.text = ("\(a)")
+        }
     }
     @IBAction func button2(sender: UIButton) {
+        if(!label2.text!.isEmpty)
+        {
+            b = (label2.text!as NSString).integerValue
+            b = 0
+            label2.text = ("\(b)")
+        }
     }
     @IBAction func button1(sender: UIButton) {
+        if(!label1.text!.isEmpty)
+        {
+            a = (label1.text!as NSString).integerValue
+            a = 0
+            label1.text = ("\(a)")
+        }
     }
     @IBOutlet weak var label2: UILabel!
     @IBOutlet weak var label1: UILabel!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+        
     
     
     
@@ -46,8 +63,7 @@ class ViewController: UIViewController {
     
     
     
-    
-    var db:QLiteDB!
+    var db:SQLiteDB!
     @IBOutlet var txtUname1:UITextField!
     @IBOutlet var txtUname2:UITextField!
     
