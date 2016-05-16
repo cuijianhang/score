@@ -14,6 +14,7 @@
 		DF2F5EA91CC50EA100C9C30D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2F5EA71CC50EA100C9C30D /* LaunchScreen.storyboard */; };
 		DF2F5EB41CC50EA100C9C30D /* score_addTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F5EB31CC50EA100C9C30D /* score_addTests.swift */; };
 		DF2F5EBF1CC50EA100C9C30D /* score_addUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F5EBE1CC50EA100C9C30D /* score_addUITests.swift */; };
+		DF7E27321CE9F3B100E019EB /* check.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E27311CE9F3B100E019EB /* check.swift */; };
 		DF7F2C901CE0B54800C1D043 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = DF7F2C8F1CE0B54800C1D043 /* data.db */; };
 		DF7F2C971CE0B63F00C1D043 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7F2C941CE0B63F00C1D043 /* SQLiteDB.swift */; };
 		DF7F2C981CE0B63F00C1D043 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7F2C951CE0B63F00C1D043 /* SQLTable.swift */; };
@@ -39,19 +40,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DF2F5E9B1CC50EA100C9C30D /* score－add.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "score－add.app"; path = "/Users/a5759/Desktop/test/2016-4-18/score/score－add/build/Debug-iphoneos/score－add.app"; sourceTree = "<absolute>"; };
 		DF2F5E9E1CC50EA100C9C30D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF2F5EA01CC50EA100C9C30D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF2F5EA31CC50EA100C9C30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF2F5EA51CC50EA100C9C30D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF2F5EA81CC50EA100C9C30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF2F5EAA1CC50EA100C9C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF2F5EAF1CC50EA100C9C30D /* score－addTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "score－addTests.xctest"; path = "/Users/a5759/Desktop/test/2016-4-18/score/score－add/build/Debug-iphoneos/score－addTests.xctest"; sourceTree = "<absolute>"; };
 		DF2F5EB31CC50EA100C9C30D /* score_addTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = score_addTests.swift; sourceTree = "<group>"; };
 		DF2F5EB51CC50EA100C9C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF2F5EBA1CC50EA100C9C30D /* score－addUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "score－addUITests.xctest"; path = "/Users/a5759/Desktop/test/2016-4-18/score/score－add/build/Debug-iphoneos/score－addUITests.xctest"; sourceTree = "<absolute>"; };
 		DF2F5EBE1CC50EA100C9C30D /* score_addUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = score_addUITests.swift; sourceTree = "<group>"; };
 		DF2F5EC01CC50EA100C9C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7E272C1CE9E8A900E019EB /* score－add.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "score－add.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7E272D1CE9E8A900E019EB /* score－addTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "score－addTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7E272E1CE9E8A900E019EB /* score－addUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "score－addUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7E27311CE9F3B100E019EB /* check.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = check.swift; sourceTree = "<group>"; };
 		DF7F2C8F1CE0B54800C1D043 /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
 		DF7F2C941CE0B63F00C1D043 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteDB.swift; path = SQLiteDB/SQLiteDB.swift; sourceTree = "<group>"; };
 		DF7F2C951CE0B63F00C1D043 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLTable.swift; path = SQLiteDB/SQLTable.swift; sourceTree = "<group>"; };
@@ -95,6 +97,9 @@
 				DF2F5E9D1CC50EA100C9C30D /* score－add */,
 				DF2F5EB21CC50EA100C9C30D /* score－addTests */,
 				DF2F5EBD1CC50EA100C9C30D /* score－addUITests */,
+				DF7E272C1CE9E8A900E019EB /* score－add.app */,
+				DF7E272D1CE9E8A900E019EB /* score－addTests.xctest */,
+				DF7E272E1CE9E8A900E019EB /* score－addUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +113,7 @@
 				DF2F5EA71CC50EA100C9C30D /* LaunchScreen.storyboard */,
 				DF2F5EAA1CC50EA100C9C30D /* Info.plist */,
 				DFBF027B1CDAEDE6003E95FA /* Bridging-Header.h */,
+				DF7E27311CE9F3B100E019EB /* check.swift */,
 			);
 			path = "score－add";
 			sourceTree = "<group>";
@@ -157,7 +163,7 @@
 			);
 			name = "score－add";
 			productName = "score－add";
-			productReference = DF2F5E9B1CC50EA100C9C30D /* score－add.app */;
+			productReference = DF7E272C1CE9E8A900E019EB /* score－add.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DF2F5EAE1CC50EA100C9C30D /* score－addTests */ = {
@@ -175,7 +181,7 @@
 			);
 			name = "score－addTests";
 			productName = "score－addTests";
-			productReference = DF2F5EAF1CC50EA100C9C30D /* score－addTests.xctest */;
+			productReference = DF7E272D1CE9E8A900E019EB /* score－addTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		DF2F5EB91CC50EA100C9C30D /* score－addUITests */ = {
@@ -193,7 +199,7 @@
 			);
 			name = "score－addUITests";
 			productName = "score－addUITests";
-			productReference = DF2F5EBA1CC50EA100C9C30D /* score－addUITests.xctest */;
+			productReference = DF7E272E1CE9E8A900E019EB /* score－addUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -272,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7E27321CE9F3B100E019EB /* check.swift in Sources */,
 				DF7F2C991CE0B63F00C1D043 /* String-Extras.swift in Sources */,
 				DF7F2C971CE0B63F00C1D043 /* SQLiteDB.swift in Sources */,
 				DF7F2C981CE0B63F00C1D043 /* SQLTable.swift in Sources */,

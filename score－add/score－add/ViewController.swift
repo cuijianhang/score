@@ -8,6 +8,13 @@
 
 //http://www.hangge.com/blog/cache/detail_645.html
 
+
+//http://www.runoob.com/sqlite/sqlite-tutorial.html
+
+//http://www.w2bc.com/article/91624
+
+
+
 import UIKit
 
 
