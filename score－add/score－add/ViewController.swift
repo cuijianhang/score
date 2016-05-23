@@ -23,12 +23,21 @@ import UIKit
 
 
 class ViewController: UIViewController {
+    //建立数据库
+    var db:SQLiteDB!
+    
+    @IBOutlet var text2: UITextField!
+    @IBOutlet var text1: UITextField!
+    
     
     var a = 0
     var b = 0
     
-    @IBAction func button5(sender: UIButton) {
-    }
+    @IBOutlet weak var label2: UILabel!
+    @IBOutlet weak var label1: UILabel!
+
+    
+    //加分
     @IBAction func button4(sender: UIButton) {
         if(!label2.text!.isEmpty)
         {
@@ -45,7 +54,29 @@ class ViewController: UIViewController {
             label1.text = ("\(a)")
         }
     }
+    //清零
     @IBAction func button2(sender: UIButton) {
+        
+        //名称
+        if(!text1.text!.isEmpty)
+        {
+            text1.text = ("")
+        }
+        if(!text2.text!.isEmpty)
+        {
+            text2.text = ("")
+        }
+
+        
+        //分数
+        if(!label1.text!.isEmpty)
+        {
+            a = (label1.text!as NSString).integerValue
+            a = 0
+            label1.text = ("\(a)")
+        }
+
+        
         if(!label2.text!.isEmpty)
         {
             b = (label2.text!as NSString).integerValue
@@ -53,17 +84,7 @@ class ViewController: UIViewController {
             label2.text = ("\(b)")
         }
     }
-    @IBAction func button1(sender: UIButton) {
-        if(!label1.text!.isEmpty)
-        {
-            a = (label1.text!as NSString).integerValue
-            a = 0
-            label1.text = ("\(a)")
-        }
-    }
-    @IBOutlet weak var label2: UILabel!
-    @IBOutlet weak var label1: UILabel!
-
+    
         
     
     
@@ -72,8 +93,7 @@ class ViewController: UIViewController {
     
     
     
-    
-    var db:SQLiteDB!
+
     @IBOutlet var txtUname1:UITextField!
     @IBOutlet var txtUname2:UITextField!
     
@@ -86,7 +106,7 @@ class ViewController: UIViewController {
     }
     
     //save
-    @IBAction func saveClicked(sender: AnyObject)
+    @IBAction func button5(sender: AnyObject)
     {
         saveUser()
     }
